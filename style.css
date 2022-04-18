@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.flex{
+    display: flex;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    float: right;
+    margin-right: 10px;
+    align-items: center;
+}
+nav li{
+    margin-right: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+.menu{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.name{
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.sec{
+    flex-direction: column;
+    align-items: center;
+    width: 40rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input{
+    outline: none;
+    border: none;
+    width: 450px;
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+.input{
+    margin-top: 2rem;
+    border-radius: 35px;
+    border: 2px solid gainsboro;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.mic{
+    margin-right: 10px;
+}
+.item{
+    flex-direction: column;
+    width: 125px;
+    height: 115px;
+    border-radius: 10px;
+    position: relative;
+}
+.item:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.item-box{
+    margin-top: 20px;
+    width: 27vw;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item-box a{
+    color: black;
+    text-decoration: none;
+}
+.item-img{
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: block;
+    margin:20px auto;
+    width: 25px;
+    height: 25px;
+    justify-content: space-between;
+}
+.info
+{
+    font-size: 1.1rem;
+    text-align: center;
+}
+.box-menu{
+    display: none   ;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
